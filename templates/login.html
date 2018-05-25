@@ -3,7 +3,7 @@
 {% block body %}
 <br><br><br>
   <h1>Login</h1>
-   <form method="POST" action="">
+   <form action="" method="post">
       <div class="form-group">
           <label>username</label>
           <input type="text" name="username" class="form-control" value={{request.form.username}}>
@@ -11,7 +11,7 @@
 
        <div class="form-group">
           <label>password</label>
-          <input type="text" name="password" class="form-control" value={{request.form.password}}>
+          <input type="password" name="password" class="form-control" value={{request.form.password}}>
       </div>
 
        <button type="submit" class="btn btn-primary">Submit</button>
