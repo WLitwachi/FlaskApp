@@ -27,6 +27,6 @@ Using GIT to manage and track changes in your project.
 -Using html and css to create user interfaces.
 
 ## Project Images
-
+! [Blog_entry] https://github.com/WLitwachi/FlaskApp/blob/master/screenshots/Blog_entry.png
 
 
